@@ -31,6 +31,27 @@ docker-compose up --build
 
 ### На Windows
 
+Будет
+
+## Способ 2. Intellij IDEA
+1. Клинировать рекурсивно [этот репозиторий](https://github.com/WebCoder1980/test_task_2025-03-05-main)
+```
+git clone https://github.com/WebCoder1980/test_task_2025-03-05-main --recurse-submodules
+```
+
+2. Открыть каждый из проектов в отдельном проекте Intellij IDEA, который имеет суффикс `-microservice` (их 4).
+3. Задать в Intellij IDEA переменные окружения для каждого проекта, нажав на изменение конфигураций:
+![изображение](https://github.com/user-attachments/assets/0b4789b5-baed-4851-ac06-8a17daeb240f)
+![изображение](https://github.com/user-attachments/assets/4f06bb4b-670b-4023-88a0-3c74bf8c8e76)
+
+**Требуется** поменять `POSTGRES_DB`, `POSTGRES_HOST`, `POSTGRES_LOGIN`, `POSTGRES_PASSWORD`, `POSTGRES_PORT` на те значения, на которых есть рабочая БД Postgres:
+```
+POSTGRES_DB=testtask-2025-03-05;POSTGRES_HOST=postgres;POSTGRES_LOGIN=postgres;POSTGRES_PASSWORD=postgres;POSTGRES_PORT=5432;EMPLOYEE_MICROSERVICE_HOST=localhost;EMPLOYEE_MICROSERVICE_PORT=8083;SHOP_MICROSERVICE_HOST=localhost;SHOP_MICROSERVICE_PORT=8084;ELECTROITEM_MICROSERVICE_HOST=localhost;ELECTROITEM_MICROSERVICE_PORT=8085;PURCHASE_MICROSERVICE_HOST=localhost;PURCHASE_MICROSERVICE_PORT=8086;SPRING_PORT=8082;POSTGRES_USER=postgres
+```
+4. Запустить каждый проект.
+5. Дождаться, пока не выведится `Tomcat started on port` в каждом из проектов.
+6. Смотреть раздел **Как пользоваться приложением**
+
 ## Способ 3.1. Java CLI с заданием переменных окружения c inline environment variable assignment:
 ### 3.1 На Linux
 1. Клонируйте репозиторий с JAR и frontend [по этой ссылке](https://github.com/WebCoder1980/test_task_2025-03-05-run)
