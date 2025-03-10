@@ -30,7 +30,7 @@ docker-compose up --build
 ```
 5. Ожидать, пока в терминале не остановятся появляться новые секунды на протяжении нескольких секунд, и пока не появятся 4 записи `Tomcat started on port`: 
 ![изображение](https://github.com/user-attachments/assets/2d05078e-4fec-4e72-95b4-4a0e0ef5e5b8)
-6. Для доступа ко фронтенду перейти на `localhost:8081`. Для доступа к REST API к `localhost:8082`. Для доступа к БД Postgres использовать `localhost:8089`, login=password=`postgres`, название БД - `testtask-2025-03-05`, порт стандартный - `5432`.
+6. Для доступа ко фронтенду перейти на `localhost:8081`. Для доступа к REST API к `localhost:8082`. Для доступа к БД Postgres использовать `localhost:8089`, login=password=`postgres`, название БД - `testtask-2025-03-05`.
 
 ### На Windows
 
@@ -52,7 +52,7 @@ docker-compose up --build
 ![изображение](https://github.com/user-attachments/assets/7e228483-b766-4189-83cd-013f5dc225dc)
 
 
-6. Для доступа ко фронтенду перейти на `localhost:8081`. Для доступа к REST API к `localhost:8082`. Для доступа к БД Postgres использовать `localhost:8089`, login=password=`postgres`, название БД - `testtask-2025-03-05`, порт стандартный - `5432`.
+6. Для доступа ко фронтенду перейти на `localhost:8081`. Для доступа к REST API к `localhost:8082`. Для доступа к БД Postgres использовать `localhost:8089`, login=password=`postgres`, название БД - `testtask-2025-03-05`.
 
 ## Способ 2. Intellij IDEA
 1. Клинировать рекурсивно [этот репозиторий](https://github.com/WebCoder1980/test_task_2025-03-05-main)
@@ -71,7 +71,7 @@ POSTGRES_DB=testtask-2025-03-05;POSTGRES_HOST=postgres;POSTGRES_LOGIN=postgres;P
 ```
 4. Запустить каждый проект.
 5. Дождаться, пока не выведится `Tomcat started on port` в каждом из проектов.
-6. Смотреть раздел **Как пользоваться приложением**
+6. Для доступа ко фронтенду перейти на `index.html` во `frontend/`. Для доступа к REST API к `localhost:8082`.
 
 ## Способ 3.1. Java CLI с заданием переменных окружения c inline environment variable assignment:
 
@@ -126,7 +126,7 @@ java -jar purchase-microservice-1.0.0.jar
 4. Ожидать, пока в терминале (или терминалах) не остановятся появляться новые секунды на протяжении нескольких секунд, и пока не появятся 4 записи `Tomcat started on port`: 
 ![изображение](https://github.com/user-attachments/assets/2d05078e-4fec-4e72-95b4-4a0e0ef5e5b8)
 
-5. Смотреть раздел **Как пользоваться приложением**
+5. Для доступа ко фронтенду перейти на `index.html` во `frontend/`. Для доступа к REST API к `localhost:8082`.
 
 ## 3.2 На Windows
 1. Добавить переменные окружения любым способом, например [по этой ссылке](https://remontka.pro/environment-variables-windows/)
@@ -139,7 +139,7 @@ java -jar <название файла>
 4. Ожидать, пока в терминале (или терминалах) не остановятся появляться новые секунды на протяжении нескольких секунд, и пока не появятся 4 записи `Tomcat started on port`: 
 ![изображение](https://github.com/user-attachments/assets/2d05078e-4fec-4e72-95b4-4a0e0ef5e5b8)
 
-5. Открыть `index.html` в директории `frontend/`
+5. Для доступа ко фронтенду перейти на `index.html` во `frontend/`. Для доступа к REST API к `localhost:8082`.
 
 # Доступ ко Swagger
 - employee-microservice:
