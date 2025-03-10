@@ -34,7 +34,25 @@ docker-compose up --build
 
 ### На Windows
 
-Будет
+1. **Необходимо** скачать архив с `volume` с JAR файлами [по этой ссылке](https://drive.google.com/file/d/1BPfEaaM9GeklKWGKh3cTCtoYJ4CHPFnE/view?usp=sharing), нет возможности загружать файлы > 100 МБ на `Github`. Распаковать архив любым способом.
+2. Перейти в терминале в ту директорию, где распологается корень распокованного архива.
+3. Убедиться, что порты 8081, 8082 и 8089 свободны. Например, выполнив команду ниже и убедиться, что она не выдала результата.
+
+4. Выполнить следующие команды в терминале:
+```bash
+docker load -i jar-files.tar
+docker-compose up --build
+```
+
+![изображение](https://github.com/user-attachments/assets/c2025b37-ef48-4e32-8204-42b7254bdd5b)
+![изображение](https://github.com/user-attachments/assets/de9b6ccb-9049-4698-b608-05e7a330fec9)
+
+
+5. Ожидать, пока в терминале не остановятся появляться новые секунды на протяжении нескольких секунд, и пока не появятся 4 записи `Tomcat started on port`: 
+![изображение](https://github.com/user-attachments/assets/7e228483-b766-4189-83cd-013f5dc225dc)
+
+
+6. Для доступа ко фронтенду перейти на `localhost:8081`. Для доступа к REST API к `localhost:8082`. Для доступа к БД Postgres использовать `localhost:8089`, login=password=`postgres`, название БД - `testtask-2025-03-05`, порт стандартный - `5432`.
 
 ## Способ 2. Intellij IDEA
 1. Клинировать рекурсивно [этот репозиторий](https://github.com/WebCoder1980/test_task_2025-03-05-main)
