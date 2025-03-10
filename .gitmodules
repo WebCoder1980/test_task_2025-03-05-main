@@ -1,0 +1,18 @@
+[submodule "test_task_2025-03-05-gateway-microservice"]
+	path = test_task_2025-03-05-gateway-microservice
+	url = https://github.com/WebCoder1980/test_task_2025-03-05-gateway-microservice
+[submodule "test_task_2025-03-05-employee-microservice"]
+	path = test_task_2025-03-05-employee-microservice
+	url = https://github.com/WebCoder1980/test_task_2025-03-05-employee-microservice
+[submodule "test_task_2025-03-05-shop-microservice"]
+	path = test_task_2025-03-05-shop-microservice
+	url = https://github.com/WebCoder1980/test_task_2025-03-05-shop-microservice
+[submodule "test_task_2025-03-05-electroitem-microservice"]
+	path = test_task_2025-03-05-electroitem-microservice
+	url = https://github.com/WebCoder1980/test_task_2025-03-05-electroitem-microservice
+[submodule "test_task_2025-03-05-purchase-microservice"]
+	path = test_task_2025-03-05-purchase-microservice
+	url = https://github.com/WebCoder1980/test_task_2025-03-05-purchase-microservice
+[submodule "test_task_2025-03-05-frontend"]
+	path = test_task_2025-03-05-frontend
+	url = https://github.com/WebCoder1980/test_task_2025-03-05-frontend
