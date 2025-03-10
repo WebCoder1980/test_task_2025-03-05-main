@@ -141,8 +141,19 @@ java -jar <название файла>
 
 5. Открыть `index.html` в директории `frontend/`
 
-- Доступ ко Swagger
-
+# Доступ ко Swagger
+- employee-microservice:
+  - Web: `localhost:8082/estore/api/employee/swaggerui.html`
+  - REST API: `localhost:8082/estore/api/employee/swaggerapi`
+- shop-microservice:
+  - Web: `localhost:8082/estore/api/shop/swaggerui.html`
+  - REST API: `localhost:8082/estore/api/shop/swaggerapi`
+- electroitem-microservice:
+  - Web: `localhost:8082/estore/api/electroitem/swaggerui.html`
+  - REST API: `localhost:8082/estore/api/electroitem/swaggerapi`
+- purchase-microservice:
+  - Web: `localhost:8082/estore/api/purchase/swaggerui.html`
+  - REST API: `localhost:8082/estore/api/purchase/swaggerapi`
 
 # Описание, где посмотреть исходники
 
