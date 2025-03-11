@@ -1,4 +1,4 @@
-![изображение](https://github.com/user-attachments/assets/b0414e15-304d-4e1f-a7bf-9c8944dd638f)# Описание разделов README
+# Описание разделов README
 - Описание по запуску:
   - Способ 1. docker-compose:
     - 1.1. На Linux
