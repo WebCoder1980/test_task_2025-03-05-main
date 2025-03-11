@@ -146,14 +146,14 @@ java -jar <название файла>
   - Web: [ссылка](http://localhost:8082/estore/api/employee/swaggerui.html)
   - REST API: [ссылка](http://localhost:8082/estore/api/employee/swaggerapi)
 - shop-microservice:
-  - Web: [ссылка](localhost:8082/estore/api/shop/swaggerui.html)
-  - REST API: [ссылка](localhost:8082/estore/api/shop/swaggerapi)
+  - Web: [ссылка](http://localhost:8082/estore/api/shop/swaggerui.html)
+  - REST API: [ссылка](http://localhost:8082/estore/api/shop/swaggerapi)
 - electroitem-microservice:
-  - Web: [ссылка](localhost:8082/estore/api/electroitem/swaggerui.html)
-  - REST API: [ссылка](localhost:8082/estore/api/electroitem/swaggerapi)
+  - Web: [ссылка](http://localhost:8082/estore/api/electroitem/swaggerui.html)
+  - REST API: [ссылка](http://localhost:8082/estore/api/electroitem/swaggerapi)
 - purchase-microservice:
-  - Web: [ссылка](localhost:8082/estore/api/purchase/swaggerui.html)
-  - REST API: [ссылка](localhost:8082/estore/api/purchase/swaggerapi)
+  - Web: [ссылка](http://localhost:8082/estore/api/purchase/swaggerui.html)
+  - REST API: [ссылка](http://localhost:8082/estore/api/purchase/swaggerapi)
 
 # Описание, где посмотреть исходники
 
